@@ -4,11 +4,11 @@ Recreation of Pong, but with a couple of 'twists'
 ## Table of Contents
 1. [Project Overview](#ProjectOverview)
 2. [Project Management Overview](#ProjectManagementOverview)
-  - [Example Tools](#PMExampleTools)
-  - [Real Access Links](#PMRealAccessLinks)
+    - [Example Tools](#PMExampleTools)
+    - [Real Access Links](#PMRealAccessLinks)
 3. [Game Design Overview](#DesignOverview)
-  - [Example Tools](#DExampleTools)
-  - [Real Access Links](#DRealAccessLinks)
+    - [Example Tools](#DExampleTools)
+    - [Real Access Links](#DRealAccessLinks)
 
 ## <a name="ProjectOverview"></a> Project Overview
 
