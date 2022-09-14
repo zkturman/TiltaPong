@@ -17,8 +17,8 @@ public class HomeUIController : MonoBehaviour
         rootVisualElement = GetComponent<UIDocument>().rootVisualElement;
 
         playComputerButton = setupSceneButton("PlayComputerButton", "GameplayScene");
-        playOnlineButton = setupSceneButton("PlayOnlineButton", "FindPlayerScene");
-        settingsButton = setupSceneButton("SettingsButton", "SettingsScene");
+        playOnlineButton = setupSceneButton("PlayOnlineButton", "UnderConstructionScene");
+        settingsButton = setupSceneButton("SettingsButton", "UnderConstructionScene");
         quitButton = setupQuitButton("QuitButton");
     }
 

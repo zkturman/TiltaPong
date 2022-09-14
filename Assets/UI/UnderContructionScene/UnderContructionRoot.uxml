@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BaseStyles.uss?fileID=7433441132597879392&amp;guid=55e6c6a5ebcd61148af2841af6de50ab&amp;type=3#BaseStyles" />
+    <ui:VisualElement name="Background" style="background-color: rgb(0, 58, 72); width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <ui:Label text="This section is currently under construction. Please check back later! :)" display-tooltip-when-elided="true" name="UnderConstructionText" style="font-size: 50px; margin-bottom: 20px; top: auto; flex-wrap: nowrap; white-space: normal; -unity-text-align: upper-center; width: 80%;" />
+        <ui:Button text="Home" display-tooltip-when-elided="true" name="HomeButton" style="width: 12%; height: 8%; margin-bottom: 15px; justify-content: flex-start; top: 15%; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" style="width: 12%; height: 8%; margin-bottom: 15px; justify-content: flex-start; top: 15%; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

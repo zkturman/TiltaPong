@@ -1,0 +1,13 @@
+Label {
+    -unity-text-outline-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+Button {
+    background-color: rgb(101, 101, 101);
+    color: rgb(255, 255, 255);
+}
+
+Button:hover {
+    background-color: rgba(130, 130, 130, 255);
+}
