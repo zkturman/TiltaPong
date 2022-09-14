@@ -10,14 +10,14 @@ Recreation of Pong, but with a couple of 'twists'
     - [Downloading the Project](#DownloadingTheProject)
         - [Using Git + Command Line](#UsingGit)
         - [Using SourceTree](#UsingSourceTree)
-    - Running the Project
+    - [Running the Project](#RunningTheProject)
 1. [Game Design Overview](#DesignOverview)
     - [Example Tools](#DExampleTools)
     - [Real Access Links](#DRealAccessLinks)
 
 ## <a name="BeforeReading"></a> Before Reading
 
-This is a demo project for Popped Corn, a collaborative game development project for the Bristol Game Creators' Club. This paragraph and the [Tools Overview](#ToolsOverview) will be the only time I reference this being a demo project. Everything else will be simulated as if a realy project. You may proceed! :)
+This is a demo project for Popped Corn, a collaborative game development project for the Bristol Game Creators' Club. This paragraph and the [Tools Overview](#ToolsOverview) will be the only time I reference this being a demo project. Everything else will be simulated as if a real project. You may proceed! :)
 
 ## <a name="ProjectOverview"></a> Project Overview
 
