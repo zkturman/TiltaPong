@@ -25,7 +25,7 @@ Welcome to the TiltaPong repository! TiltaPong is a modern take on the classic a
 ## <a name="ProjectPlanning"></a> Project Planning
 
 TiltaPong is being managed using Agile methodologies, and is utilising a roadmap for important feature development. The [current roadmap](https://docs.google.com/spreadsheets/d/1IkqW6ugz-nVmIMVWQwWdWx6HQyx1fmjXpYGbteyWGx0/edit?usp=sharing) focused on the new core gameplay mechanics:
-
+  
 ![image](ProjectManagement/Roadmap_v1.png)
 
 Each major feature listed in the Roadmap is an Epic that is broken down into smaller tasks and managed using sprints:
