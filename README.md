@@ -63,6 +63,8 @@ Slightly more sophisticated art will be used for UI/UX, but will still maintain 
 
 ## Sound Overview
 
+Sound for TiltaPong will primarily come from the Unity Asset Store. Sounds effects will be used to indicate both player input and game state. Thematic music will play throughout the game, but will differ depending on the player's scene.
+
 ## <a name="HowToDownloadAndRun"></a> How to Download and Run
 
 ### <a name="DownloadingTheProject"></a> Downloading the Project
@@ -121,23 +123,17 @@ Currently, there are no special run or build instructions. If you would like to 
 
 Below are all free tools that can be used for game development when working on Popped Corn projects. Other tools can be used as well, even paid tools. However, any content should always be stored in a way that allows others to access it for free.
 
-- [Google Sheets](https://docs.google.com/spreadsheets) - Roadmap creation and sharing
+- [Google Sheets](https://docs.google.com/spreadsheets) - Roadmap creation, game mechanic information, and sharing
 - [Trello](https://trello.com) - Sprint task tracking and sharing
-
 - [Google Docs](https://docs.google.com) - Design document creation and sharing
 - [Google Slides](https://docs.google.com/presentation) - Wireframe creation and sharing
-- [Google Sheets](https://docs.google.com/spreadsheets) - Shareable numbers and stuff for mechanics
 - [diagrams.net](https://www.diagrams.net/) - Web-based diagram creation tools (can save directly to GitHub)
-
-
-- [Git]() - Free version control software
-- [GitHub]() - Free hosted remote repositories for version control (as well as other things)
-- [Unity]() - Free game engine and development tool primarily using C#
-- [Unreal]() - Free game engine and development tool primarily using Blueprints and C++
-
-- [Gimp]() - Free image editing software (includes more advanced tools than Paint, like layers and custom brushes)
-- [Blender]() - Free 3D modelling and animation software
-- [Unity]() - Free animation software for 2D and 3D
-
-- [Audacity]() - Free audio recording and editing
-- [Cakewalk]() - Free audio recording, creation, and editing
+- [Git](https://git-scm.com/) - Free version control software
+- [GitHub](https://github.com/) - Free hosted remote repositories for version control (as well as other things)
+- [Unity](https://unity.com/) - Game engine and development tool primarily using C#
+- [Unreal](https://www.unrealengine.com/en-US/) - Game engine and development tool primarily using Blueprints and C++
+- [Godot](https://godotengine.org/) - Open-source game engine that uses its own language (GDScript), C#, or C++
+- [Gimp](https://www.gimp.org/) - Free image editing software (includes more advanced tools than Paint, like layers and custom brushes)
+- [Blender](https://www.blender.org/) - Free 3D modelling and animation software
+- [Audacity](https://www.audacityteam.org/) - Free audio recording and editing
+- [Cakewalk](http://www.cakewalk.com/) - Free audio recording, creation, and editing
