@@ -147,6 +147,7 @@ Once finished with your changes, you will need to perform some actions to get th
 1. To officially save these changes, enter ```git commit -m "YOUR COMMIT MESSAGE THAT DESCRIBES YOUR CHANGES"```
 1. Finally, enter ```git push``` to send those changes to GitHub.
   - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
+1. [Create a Pull Request](#CreatePullRequest)
 
 ### <a name="ChangesUsingSourceTree"></a> Using SourceTree
 
@@ -157,6 +158,7 @@ Once finished with your changes, you will need to perform some actions to get th
 1. Tick the 'Push changes immediately to <BRANCHNAME>' checkbox
 1. Click the 'Commit' button
   - If your repository is out of date, you may need to click the 'Pull' button first. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
+1. [Create a Pull Request](#CreatePullRequest)
 
 ### <a name="CreatePullRequest"></a> Create a Pull Request
 
