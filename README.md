@@ -90,7 +90,7 @@ For this method, you will need to have SourceTree installed on your computer. So
 1. Open SourceTree
 1. Open a new tab and click the Clone button
 1. In 'Source Path', enter ```https://github.com/zkturman/TiltaPong.git```
-    - Note: this can be copied above by clicking the grey/greeen Code button and copying the HTTPS URL
+    - Note: this can be copied above by clicking the grey/green Code button and copying the HTTPS URL
 1. In 'Destination Path', enter the location on your computer you want this repository to be copied into
 1. In 'Name', enter the name your want for your local project folder. E.g., TiltaPong
 
