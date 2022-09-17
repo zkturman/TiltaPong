@@ -131,8 +131,8 @@ Currently, there are no special run or build instructions. If you would like to 
 If following the instruction in [How to Download and Run](#HowToDownloadAndRun), you can make the desired changes to your local files normally.
 
 **NOTE: YOU SHOULD ALWAYS PERFORM A PULL BEFORE MAKING CHANGES TO AVOID CONFLICTS**
-  - In Git, ```git pull```
-  - In SourceTree, click the 'Pull' button
+- In Git, ```git pull```
+- In SourceTree, click the 'Pull' button
 
 Once finished with your changes, you will need to perform some actions to get them onto GitHub (called 'pushing'). Once your changes are 'pushed', you can create a Pull Request as described below. We will then review your changes and add them to the ```main``` branch of source code.
 
@@ -146,7 +146,7 @@ Once finished with your changes, you will need to perform some actions to get th
     - If you would like to add only some changes, replace ```.``` with a filename.
 1. To officially save these changes, enter ```git commit -m "YOUR COMMIT MESSAGE THAT DESCRIBES YOUR CHANGES"```
 1. Finally, enter ```git push``` to send those changes to GitHub.
-  - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
+    - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
 1. [Create a Pull Request](#CreatePullRequest)
 
 ### <a name="ChangesUsingSourceTree"></a> Using SourceTree
@@ -157,10 +157,21 @@ Once finished with your changes, you will need to perform some actions to get th
 1. Click the 'Stage All' button, or select certain files and click the 'Stage Selected' button
 1. Tick the 'Push changes immediately to <BRANCHNAME>' checkbox
 1. Click the 'Commit' button
-  - If your repository is out of date, you may need to click the 'Pull' button first. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
+    - If your repository is out of date, you may need to click the 'Pull' button first. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
 1. [Create a Pull Request](#CreatePullRequest)
 
 ### <a name="CreatePullRequest"></a> Create a Pull Request
+
+In GitHub, click the 'Pull requests' tab above, or [this link](https://github.com/zkturman/TiltaPong/pulls). If your changes are recent, you may see a banner stating so, and you can follow these steps:
+1. Click the 'Compare & pull request' button
+1. Scroll down to review the changes are yours
+1. Add a brief comment describing your changes
+1. Click the 'Create pull request' button
+1. On the right, under the Reviewers section, add someone and contact them letting you know you've created a pull request.
+1. Someone will review and (hopefully) add your changes to ```main```
+
+If you do not see a banner concerning your changes, follow these steps:
+1. Click
 
 ## <a name="ToolsOverview"></a> Tools Overview
 
