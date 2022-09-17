@@ -148,7 +148,19 @@ Once finished with your changes, you will need to perform some actions to get th
 ### <a name="ChangesUsingSourceTree"></a> Using SourceTree
 
 
+
 ### <a name="Create a Pull Request"></a> Create a Pull Request
+
+In GitHub, click the 'Pull requests' tab above, or [this link](https://github.com/zkturman/TiltaPong/pulls). If your changes are recent, you may see a banner stating so, and you can follow these steps:
+1. Click the 'Compare & pull request' button
+1. Scroll down to review the changes are yours
+1. Add a brief comment describing your changes
+1. Click the 'Create pull request' button
+1. On the right, under the Reviewers section, add someone and contact them letting you know you've created a pull request.
+1. Someone will review and (hopefully) add your changes to ```main```
+
+If you do not see a banner concerning your changes, follow these steps:
+1. Click
 
 ## <a name="ToolsOverview"></a> Tools Overview
 
