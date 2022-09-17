@@ -12,6 +12,7 @@
         - [Using Git + Command Line](#UsingGit)
         - [Using SourceTree](#UsingSourceTree)
     - [Running the Project](#RunningTheProject)
+1. [How to Make Changes](#HowToMakeChanges)
 1. [Tools Overview](#ToolsOverview)
 
 ## <a name="BeforeReading"></a> Before Reading
@@ -25,7 +26,7 @@ Welcome to the TiltaPong repository! TiltaPong is a modern take on the classic a
 ## <a name="ProjectPlanning"></a> Project Planning
 
 TiltaPong is being managed using Agile methodologies, and is utilising a roadmap for important feature development. The [current roadmap](https://docs.google.com/spreadsheets/d/1IkqW6ugz-nVmIMVWQwWdWx6HQyx1fmjXpYGbteyWGx0/edit?usp=sharing) focused on the new core gameplay mechanics:
-  
+
 ![image](ProjectManagement/Roadmap_v1.png)
 
 Each major feature listed in the Roadmap is an Epic that is broken down into smaller tasks and managed using sprints:
@@ -82,6 +83,7 @@ For this method, you will need to have Git installed on your computer. Git is a 
     - You may also be prompted for GitHub credentials or personal access token. Following [the steps here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) will help you configure Git to prevent this harassment.
       - Treat this token like a password and keep it CONFIDENTIAL.
       - Git should remember this token once you successfully complete an action using the token and close the terminal.
+1. Enter ```git checkout development```
 
 #### <a name="UsingSourceTree"></a> Using SourceTree
 
@@ -93,6 +95,8 @@ For this method, you will need to have SourceTree installed on your computer. So
     - Note: this can be copied above by clicking the grey/green Code button and copying the HTTPS URL
 1. In 'Destination Path', enter the location on your computer you want this repository to be copied into
 1. In 'Name', enter the name your want for your local project folder. E.g., TiltaPong
+1. Click Advanced options and change 'Checkout branch' to 'development'
+1. Click the 'Clone' button
 
 ### <a name="RunningTheProject"></a> Running the Project
 
@@ -119,6 +123,33 @@ Currently, there are no special run or build instructions. If you would like to 
 1. Double click HomeScene
 1. Click the Play button at the top of the Unity window
 
+## <a name="HowToMakeChanges"></a> How to Make Changes
+
+If following the instruction in [How to Download and Run](#HowToDownloadAndRun), you can make the desired changes to your local files normally.
+
+**NOTE: YOU SHOULD ALWAYS PERFORM A PULL BEFORE MAKING CHANGES TO AVOID CONFLICTS**
+  - In Git, ```git pull```
+  - In SourceTree, click the 'Pull' button
+
+Once finished with your changes, you will need to perform some actions to get them onto GitHub (called 'pushing'). Once your changes are 'pushed', you can create a Pull Request as described below. We will then review your changes and add them to the ```main``` branch of source code.
+
+### <a name="ChangesUsingGit"></a> Using Git
+
+1. Open either PowerShell or a terminal window
+1. ```CD``` to your TiltaPong directory
+1. Enter ```git status``` and review all the files you've made changes to.
+    - If you have unwanted changes, you can undo all changes to a file using this command: ```git checkout HEAD -- my-file.txt```
+1. To prepare these changes for saving, enter ```git add .```, which will add all your local changes.
+    - If you would like to add only some changes, replace ```.``` with a filename.
+1. To officially save these changes, enter ```git commit -m "YOUR COMMIT MESSAGE THAT DESCRIBES YOUR CHANGES"```
+1. Finally, enter ```git push``` to send those changes to GitHub.
+  - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps.
+
+### <a name="ChangesUsingSourceTree"></a> Using SourceTree
+
+
+### <a name="Create a Pull Request"></a> Create a Pull Request
+
 ## <a name="ToolsOverview"></a> Tools Overview
 
 Below are all free tools that can be used for game development when working on Popped Corn projects. Other tools can be used as well, even paid tools. However, any content should always be stored in a way that allows others to access it for free.
@@ -137,4 +168,3 @@ Below are all free tools that can be used for game development when working on P
 - [Blender](https://www.blender.org/) - Free 3D modelling and animation software
 - [Audacity](https://www.audacityteam.org/) - Free audio recording and editing
 - [Cakewalk](http://www.cakewalk.com/) - Free audio recording, creation, and editing
- 
