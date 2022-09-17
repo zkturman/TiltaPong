@@ -171,7 +171,15 @@ In GitHub, click the 'Pull requests' tab above, or [this link](https://github.co
 1. Someone will review and (hopefully) add your changes to ```main```
 
 If you do not see a banner concerning your changes, follow these steps:
-1. Click
+1. Click the 'Pull requests' tab at the top of the screen
+1. Click the 'New pull request' button
+1. Click the branch with your changes (usually ```development```)
+1. Review the changes to make sure they're your changes
+1. Click the 'Create pull request' button
+1. Add a brief comment describing your changes
+1. Click the 'Create pull request' button
+1. On the right, under the Reviewers section, add someone and contact them letting you know you've created a pull request.
+1. Someone will review and (hopefully) add your changes to ```main```
 
 ## <a name="ToolsOverview"></a> Tools Overview
 
