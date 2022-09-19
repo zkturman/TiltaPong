@@ -105,29 +105,29 @@ For this method, you will need to have SourceTree installed on your computer. So
 To run this project, you will need UnityHub installed on your computer. [It can be downloaded here.](https://unity.com/download) Once downloaded, you will need to download Unity version 2021.3.9f1. To install this version, follow these steps:
 
 1. Open UnityHub
-1. Click the Installs tab (on the left)
-1. Click the Install Editor button
-1. Locate version 2021.3.9.f1 in the Official Releases tab
-1. Click the Install button
+1. Click the 'Installs' tab (on the left)
+1. Click the 'Install Editor' button
+1. Locate version 2021.3.9.f1 in the 'Official Releases' tab
+1. Click the 'Install' button
 
 To open the TiltaPong project:
 
 1. Open UnityHub
-1. Click the Projects tab on the left (if not already selected)
-1. Click Open >> Add Project from Disk
+1. Click the 'Projects' tab on the left (if not already selected)
+1. Click 'Open' >> 'Add Project from Disk'
 1. Select your TiltaPong folder
-1. Click Add Project
+1. Click 'Add Project'
 1. If the project does not open automatically, click the TiltaPong row in UnityHub to open the project.
 
 Currently, there are no special run or build instructions. If you would like to run the game from the start, follow these steps:
 
-1. Navigate to the Assets\\Scenes\\ in Unity
-1. Double click HomeScene
+1. Navigate to the Assets\\Scenes\\ directory within Unity
+1. Double click 'HomeScene'
 1. Click the Play button at the top of the Unity window
 
 ## <a name="HowToMakeChanges"></a> How to Make Changes
 
-If following the instruction in [How to Download and Run](#HowToDownloadAndRun), you can make the desired changes to your local files normally.
+After following the instruction in [How to Download and Run](#HowToDownloadAndRun), you can make the desired changes on your machine within your copy of the project.
 
 **NOTE: YOU SHOULD ALWAYS PERFORM A PULL BEFORE MAKING CHANGES TO AVOID CONFLICTS**
 - In Git, ```git pull```
@@ -140,12 +140,12 @@ Once finished with your changes, you will need to perform some actions to get th
 1. Open either PowerShell or a terminal window
 1. ```CD``` to your TiltaPong directory
 1. Enter ```git status``` and review all the files you've made changes to.
-    - If you have unwanted changes, you can undo all changes to a file using this command: ```git checkout HEAD -- my-file.txt```
+    - If you have unwanted changes, you can undo all changes to a file using this command: ```git checkout HEAD -- my-file.extension```
 1. To prepare these changes for saving, enter ```git add .```, which will add all your local changes.
     - If you would like to add only some changes, replace ```.``` with a filename.
-1. To officially save these changes, enter ```git commit -m "YOUR COMMIT MESSAGE THAT DESCRIBES YOUR CHANGES"```
+1. To officially save these changes, enter ```git commit -m "COMMIT MESSAGE THAT DESCRIBES YOUR CHANGES"```
 1. Finally, enter ```git push``` to send those changes to GitHub.
-    - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
+    - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help. There are other strategies for handling this scenario, but approach with caution.
 1. [Create a Pull Request](#CreatePullRequest)
 
 ### <a name="ChangesUsingSourceTree"></a> Using SourceTree
@@ -184,7 +184,7 @@ If you do not see a banner concerning your changes, follow these steps:
 
 Below are all free tools that can be used for game development when working on Popped Corn projects. Other tools can be used as well, even paid tools. However, any content should always be stored in a way that allows others to access it for free.
 
-- [Google Sheets](https://docs.google.com/spreadsheets) - Roadmap creation, game mechanic information, and sharing
+- [Google Sheets](https://docs.google.com/spreadsheets) - Shareable roadmap creation and game mechanic logging
 - [Trello](https://trello.com) - Sprint task tracking and sharing
 - [Google Docs](https://docs.google.com) - Design document creation and sharing
 - [Google Slides](https://docs.google.com/presentation) - Wireframe creation and sharing
