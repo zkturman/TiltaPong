@@ -16,11 +16,11 @@ public class PlayerController : MonoBehaviour, PaddleController
 
     private void Update()
     {
-        if (IsRelativeUpInputPressed())
+        if (IsRelativeUpInputReceived())
         {
             HandleRelativeUpInput();
         }
-        else if (IsRelativeDownInputPressed())
+        else if (IsRelativeDownInputReceived())
         {
             HandleRelativeDownInput();
         }
@@ -30,12 +30,12 @@ public class PlayerController : MonoBehaviour, PaddleController
         }
     }
 
-    public bool IsRelativeUpInputPressed()
+    public bool IsRelativeUpInputReceived()
     {
         return isPressedKeyInSet(RelativeUpKeys);
     }
 
-    public bool IsRelativeDownInputPressed()
+    public bool IsRelativeDownInputReceived()
     {
         return isPressedKeyInSet(RelativeDownKeys);
     }
