@@ -16,17 +16,17 @@ This README is designed to hold information regarding TiltaPong's design. Becaus
 
 ## <a name="DesignDocument"></a>Design Document
 
-All mechanics and important design decisions are documented in [this document](https://docs.google.com/document/d/1BxIRuREkCNnnhHKFHiHDU0i9Xp5bomv3vNINLLLVrhU/edit?usp=sharing). Anyone is allowed to view and add comments to the document in Google Docs. However, only permitted authors have the security to edit the document. This security helps keep the documented information come from a few sources and can help keep the team informed about all updated decisions. The design document is updated dynamically when important decisions are made during ongoing development. As such, it is not a complete document until the game's development is finished.
+All mechanics and important design decisions are documented in [this document](https://docs.google.com/document/d/1BxIRuREkCNnnhHKFHiHDU0i9Xp5bomv3vNINLLLVrhU/edit?usp=sharing). Anyone is allowed to view and add comments to the document in Google Docs. However, only permitted authors have the security to edit the document. This security helps prevents important documentation from going unnoticed and can help keep the team informed about all important updates. The design document is updated dynamically when important decisions are made during development. As such, it is not a complete document until the game's development is finished.
 
 ## <a name="UIAndBehaviour"></a>UI and Behaviour Prototypes
 
-Below, wireframes for prototype UI are provides for various screens and menus located within the game. Due to the nature of a wireframe, these do not contain any game art. They are simply used to indicate the placement of different elements visible to the player.
+Below, wireframes for prototype UI are provided for various screens and menus located within the game. Due to the nature of a wireframe, these do not contain any game art. They are simply used to indicate the placement of different elements visible to the player.
 
-In addition to wireframes, the intended player behaviour is documented using user flow diagrams. The following key can be used to discern the meanings of shapes and colours.
-- Green circle - An action initiates the UI
+In addition to wireframes, the intended player behaviour is documented using user flow diagrams. The following key can be used to discern the meanings of their shapes and colours.
+- Green circle - Action that initiates the UI
 - Blue rectangle - Actions that are descriptive and/or happen automatically
 - Yellow diamond - A decision point in the behaviour made by the player or program
-- Red circle - An action that ends the behaviour for a given UI and either leads to another UI or closes the game
+- Red circle - Action that ends the behaviour for a given UI and either leads to another UI or closes the game
 
 In the following sections a 'scene' refers to a Unity Scene.
 
@@ -46,7 +46,7 @@ User Flow:
 
 ## <a name="SettingsScene"></a> Settings Scene
 
-The Settings Scene is where players will be able to modify settings outside of gameplay. Here they can change settings involve game behaviour, sounds, and visuals. Game behaviour settings can only be changed from this scene; they cannot be adjusted mid-game.
+The Settings Scene is where players will be able to modify settings outside of gameplay. Here they can change settings involving game behaviour, sounds, and visuals. Game behaviour settings can only be changed within this scene; they cannot be adjusted mid-game.
 
 Wireframe:
 
@@ -58,11 +58,15 @@ User Flow:
 
 ## <a name="FindPlayerScene"></a> Find Player Scene
 
-The Find Player Scene is used as an intermediate scene when players are playing against an online opponent. Here, the game will search for an available player until one is found. The player is able to cancel and return to the previous Scene at any time during this process.
+The Find Player Scene is used as an intermediate scene when players are playing against an online opponent. Here, the game will search for an available player until one is found. The player is able to cancel and return to the previous scene at any time during this process.
 
 Wireframe:
 
 ![image](FindPlayerWireframe.png)
+
+User Flow:
+
+![image](FindPlayerSceneFlow.png)
 
 ## <a name="GameplayScene"></a> Gameplay Scene
 
@@ -78,7 +82,7 @@ User Flow:
 
 ## <a name="GameplayPauseMenu"></a>Gameplay Pause Menu
 
-Pausing the game during gameplay produces a menu that players must interact with. They can close the menu and continue the game, change some aesthetic settings, or quit the current game. The behaviour for pausing a game while a playing an online opponent has not yet been defined.
+Pausing the game during gameplay produces a menu that players must interact with. They can close the menu and continue the game, change some aesthetic settings, or quit the current game. The behaviour for pausing a game while playing an online opponent has not yet been defined.
 
 Wireframe for main pause menu:
 
@@ -107,7 +111,7 @@ User Flow:
 
 ## <a name="UnderConstructionScene"></a> Under Construction Scene
 
-The Under Construction Scene is meant to act as a placeholder for scenes that have not been developed yet. The scene's primary purpose is to alert players that a feature is coming, but also give them a way to return to the Home Scene.
+The Under Construction Scene is meant to act as a placeholder for scenes that have not been developed. The scene's primary purpose is to alert players that a feature is coming, but also give them a way to return to the Home Scene.
 
 Wireframe:
 
