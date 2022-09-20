@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T07:30:25.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="R7qUPgZuIkRro_S2tuhv" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T07:32:20.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="34skjxDzBrpYyeNr3t5O" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="w46rc9Ggta0nKSejpY7C-31" value="Player turn begins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Tm4pH8bPhfzeuyTJ1Fgy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;endSize=4;width=5;endWidth=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tm4pH8bPhfzeuyTJ1Fgy-0" target="w46rc9Ggta0nKSejpY7C-31" edge="1">
+        <mxCell id="Tm4pH8bPhfzeuyTJ1Fgy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;endSize=4;width=5;endWidth=15;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tm4pH8bPhfzeuyTJ1Fgy-0" target="w46rc9Ggta0nKSejpY7C-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tm4pH8bPhfzeuyTJ1Fgy-0" value="Becomes opposing player&#39;s turn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -115,7 +115,7 @@
         <mxCell id="NA5cMDwMh_C78hmzZWPd-2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=default;endSize=4;width=5;endWidth=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NA5cMDwMh_C78hmzZWPd-0" target="Tm4pH8bPhfzeuyTJ1Fgy-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NA5cMDwMh_C78hmzZWPd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;endSize=4;width=5;endWidth=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NA5cMDwMh_C78hmzZWPd-0" target="NA5cMDwMh_C78hmzZWPd-5" edge="1">
+        <mxCell id="NA5cMDwMh_C78hmzZWPd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;endSize=4;width=5;endWidth=15;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NA5cMDwMh_C78hmzZWPd-0" target="NA5cMDwMh_C78hmzZWPd-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NA5cMDwMh_C78hmzZWPd-0" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Presses Rotate key?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
