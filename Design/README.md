@@ -64,6 +64,10 @@ Wireframe:
 
 ![image](FindPlayerWireframe.png)
 
+User Flow:
+
+![image](FindPlayerSceneFlow.png)
+
 ## <a name="GameplayScene"></a> Gameplay Scene
 
 The Gameplay Scene is where the actual game takes place. Here players will play TiltaPong against either a computer or online opponent until the win condition is met. The full core gameplay loop is visualised through the corresponding user flow diagram.
