@@ -4,6 +4,9 @@
 ## Table of Contents
 0. [Before Reading](#BeforeReading)
 1. [Project Overview](#ProjectOverview)
+1. [Release](#Release)
+    - [Where to Play](#WhereToPlay)
+    - [Update Schedule](#UpdateSchedule)
 1. [Project Planning](#ProjectPlanning)
 1. [Design Overview](#DesignOverview)
 1. [How to Download and Run](#HowToDownloadAndRun)
@@ -24,6 +27,16 @@ This is a demo project for Popped Corn, a collaborative game development project
 ## <a name="ProjectOverview"></a> Project Overview
 
 Welcome to the TiltaPong repository! TiltaPong is a modern take on the classic arcade game, Pong, but with a couple of unique game mechanics. In addition to the regular back and forth, players will need to incorporate additional strategy with the ability to rotate the entire playing field! Players can also gain an advantage by adding extra power when returning the ball. While the game may feel familiar, new features will create a fun challenge for players. Before facing in-person competitors online, players can enjoy either a more casual experience or intense practice with the built in computer player. Due to its lightweight design and easy controls, TiltaPong is a modern-day arcade game that can be enjoyed by all.
+
+## <a name="Release"></a> Release
+
+### <a name="WhereToPlay"></a> Where to Play
+
+TiltaPong is intended to release on Itch.io. The release window is the end of **November 2022**.
+
+### <a name="UpdateSchedule"></a> Update Schedule
+
+Following release, TiltaPong will enter ongoing maintenance for approximately three months. New features and bug fixes will be applied on a monthly basis. These features will be documented in [the roadmap](https://docs.google.com/spreadsheets/d/1IkqW6ugz-nVmIMVWQwWdWx6HQyx1fmjXpYGbteyWGx0/edit?usp=sharing).
 
 ## <a name="ProjectPlanning"></a> Project Planning
 
