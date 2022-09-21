@@ -32,7 +32,7 @@ Following release, TiltaPong will enter ongoing maintenance for approximately th
 
 ## <a name="HowToContribute"></a> How to Contribute
 
-If you are planning to contribute to TiltaPong there are plenty of areas to help out. If you're looking for tasks to complete, take a look at the [project planning](#ProjectPlanning) section where you can find our current milestone and tasks. To make changes or updates to the project head on over to our [contribution guide](Contributing.md).
+If you are planning to contribute to TiltaPong there are plenty of areas to help out. If you're looking for tasks to complete, take a look at the [project planning](#ProjectPlanning) section where you can find our current milestones and tasks. To make changes or updates to the project head on over to our [contribution guide](Contributing.md).
 
 ## <a name="ProjectPlanning"></a> Project Planning
 

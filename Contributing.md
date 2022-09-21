@@ -1,4 +1,4 @@
-# How to Contribute to TiltaPong
+# <p align="center">How to Contribute to TiltaPong</p>
 
 ## Table of Contents
 
@@ -17,15 +17,15 @@
 
 ## <a name="Overview"></a> Overview
 
-There are many different ways to contribute to TiltaPong, including administrative, creative, and technical areas. Below are guides on how to contribute in different areas. If you are adding files or updating documentation, there is no need to download the whole project. If you are adding content into the actual game, programming, or testing, you'll need to refer to the download instructions.
+There are many different ways to contribute to TiltaPong, including administrative, creative, and technical areas. Below are guides on how make different types of changes. If you are adding files or updating documentation, there is no need to download the whole project. If you are adding content into the actual game, programming, or testing, you'll need to refer to the download instructions.
 
 If you need help with your changes, reach out to the project owner.
 
 ## <a name="Documentation"></a> Making Documentation Changes
 
-Documentation is one of the key areas that keeps projects like TiltaPong running smoothly. As multiple people are working on the project, being able to find information is crucial to keep game development efficient.
+Documentation is one of the key areas that keep projects like TiltaPong running smoothly. As multiple people are working on the project, being able to find information is crucial to keep game development efficient.
 
-If working with a shareable document, such as Google Docs or Kanban boards, simply follow the appropriate link and start editing. Certain documents may limit direct edits to subsets of people. If you feel you should have security to make changes and cannot, reach out to the project owner.
+If working with a shareable document, such as Google Docs or Kanban boards in Trello, simply follow the appropriate link and start editing. Certain documents may limit direct edits to subsets of people. If you feel you should have security to make changes and cannot, reach out to the project owner.
 
 If you are making changes to GitHub documentation, such as README.md, follow these steps:
 
@@ -34,7 +34,7 @@ If you are making changes to GitHub documentation, such as README.md, follow the
 1. In the upper-right corner, click the pencil icon
 1. Make your changes
 1. Click the 'Preview' button to review your changes
-1. Scroll to the bottom of the screen and enter a message briefly describing your change
+1. Scroll to the bottom of the screen and enter a message briefly describing your changes
   - This is the smaller box, not the 'Add an optional extended description...'
 1. Ensure the 'Commit directly to the development branch' radio button is selected
 1. Click the 'Commit changes' button
@@ -48,7 +48,7 @@ If adding content, such as artwork or sound files, you may not need to download 
 1. Navigate to the folder in GitHub where you want to upload the file
 1. In the upper-right corner, click 'Add file >> Upload files'
 1. Either click 'choose your files' and browse to your desired files or drag and drop the files
-1. At the bottom of the screen and enter a message briefly describing your change
+1. At the bottom of the screen, enter a message briefly describing your changes
   - This is the smaller box, not the 'Add an optional extended description...'
 1. Ensure the 'Commit directly to the development branch' radio button is selected
 1. Click the 'Commit changes' button
