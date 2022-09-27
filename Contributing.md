@@ -35,7 +35,7 @@ If you are making changes to GitHub documentation, such as README.md, follow the
 1. Make your changes
 1. Click the 'Preview' button to review your changes
 1. Scroll to the bottom of the screen and enter a message briefly describing your changes
-  - This is the smaller box, not the 'Add an optional extended description...'
+    - This is the smaller box, not the 'Add an optional extended description...'
 1. Ensure the 'Commit directly to the development branch' radio button is selected
 1. Click the 'Commit changes' button
 1. [Create and submit a Pull Request](#CreatePullRequest)
@@ -49,7 +49,7 @@ If adding content, such as artwork or sound files, you may not need to download 
 1. In the upper-right corner, click 'Add file >> Upload files'
 1. Either click 'choose your files' and browse to your desired files or drag and drop the files
 1. At the bottom of the screen, enter a message briefly describing your changes
-  - This is the smaller box, not the 'Add an optional extended description...'
+    - This is the smaller box, not the 'Add an optional extended description...'
 1. Ensure the 'Commit directly to the development branch' radio button is selected
 1. Click the 'Commit changes' button
 1. [Create and submit a Pull Request](#CreatePullRequest)
@@ -65,12 +65,12 @@ For this method, you will need to have Git installed on your computer. Git is a 
 1. Open either PowerShell or a terminal window
 1. ```CD``` to the directory you want to store your copy of this project
 1. Enter ```git clone https://github.com/zkturman/TiltaPong.git```
-  - You may be prompted for credentials at this stage. You can set these properties using a [one-time command](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
-    - ```git config --global user.name "John Doe"```
-    - ```git config --global user.email johndoe@example.com```
-  - You may also be prompted for GitHub credentials or a personal access token. Following [the steps here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) will help you configure Git to prevent continued harassment.
-    - Treat this token like a password and keep it CONFIDENTIAL.
-    - Git should remember this token once you successfully complete an action using the token and restart the terminal.
+    - You may be prompted for credentials at this stage. You can set these properties using a [one-time command](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+        - ```git config --global user.name "John Doe"```
+        - ```git config --global user.email johndoe@example.com```
+    - You may also be prompted for GitHub credentials or a personal access token. Following [the steps here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) will help you configure Git to prevent continued harassment.
+        - Treat this token like a password and keep it CONFIDENTIAL.
+        - Git should remember this token once you successfully complete an action using the token and restart the terminal.
 1. Enter ```git checkout development```
 
 #### <a name="UsingSourceTree"></a> Using SourceTree
@@ -80,7 +80,7 @@ For this method, you will need to have SourceTree installed on your computer. So
 1. Open SourceTree
 1. Open a new tab and click the 'Clone' button
 1. In 'Source Path', enter ```https://github.com/zkturman/TiltaPong.git```
-  - Note: this can be copied above by clicking the grey/green Code button and copying the HTTPS URL
+    - Note: this can be copied above by clicking the grey/green Code button and copying the HTTPS URL
 1. In 'Destination Path', enter the location on your computer you want this repository to be copied into
 1. In 'Name', enter the name you want for your local project folder. E.g., TiltaPong
 1. Click 'Advanced options' and change 'Checkout branch' to 'development'
@@ -126,12 +126,12 @@ Once finished with your changes, you will need to perform some actions to get th
 1. Open either PowerShell or a terminal window
 1. ```CD``` to your TiltaPong directory
 1. Enter ```git status``` and review all the files you've made changes to.
-  - If you have unwanted changes, you can undo all changes to a file using this command: ```git checkout HEAD -- my-file.extension```
+    - If you have unwanted changes, you can undo all changes to a file using this command: ```git checkout HEAD -- my-file.extension```
 1. To prepare these changes for saving, enter ```git add .```, which will add all your local changes.
-  - If you would like to add only some changes, replace ```.``` with a filename.
+    - If you would like to add only some changes, replace ```.``` with a filename.
 1. To officially save these changes, enter ```git commit -m "COMMIT MESSAGE THAT DESCRIBES YOUR CHANGES"```
 1. Finally, enter ```git push``` to send those changes to GitHub.
-  - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help. There are other strategies for handling this scenario, but approach with caution.
+    - If Git says your local repository is not up to date with remote, you must enter ```git pull``` first. This command will update your local files with all new changes to the repository. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help. There are other strategies for handling this scenario, but approach with caution.
 1. [Create and submit a Pull Request](#CreatePullRequest)
 
 ### <a name="ChangesUsingSourceTree"></a> Using SourceTree
@@ -142,7 +142,7 @@ Once finished with your changes, you will need to perform some actions to get th
 1. Click the 'Stage All' button, or select certain files and click the 'Stage Selected' button
 1. Tick the 'Push changes immediately to <BRANCHNAME>' checkbox
 1. Click the 'Commit' button
-  - If your repository is out of date, you may need to click the 'Pull' button first. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
+    - If your repository is out of date, you may need to click the 'Pull' button first. If this creates merge conflicts, you will need to fix them and redo these steps. See [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) for help.
 1. [Create and submit a Pull Request](#CreatePullRequest)
 
 ## <a name="CreatePullRequest"></a> Submit Changes with Pull Requests
