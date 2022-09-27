@@ -9,5 +9,6 @@
 ## Player Settings
 
 ## Computer AI
+![image](ComputerStateMachine.png)
 
 ## Online Multiplayer
