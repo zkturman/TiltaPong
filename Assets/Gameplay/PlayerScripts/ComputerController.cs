@@ -15,6 +15,8 @@ public class ComputerController : MonoBehaviour, PaddleController
     private float minYCoord;
     private float maxYCoord;
     private float targetYCoord;
+    private PlayerInputType currentInput = PlayerInputType.None;
+    private AIState currentState;
     private bool isUpMovement = false;
     private bool isDownMovement = false;
 
@@ -48,6 +50,7 @@ public class ComputerController : MonoBehaviour, PaddleController
     private void setTargetLocation()
     {
         targetYCoord = Random.Range(minPlayAreaYCoord, maxPlayAreaYCoord);
+        Debug.Log("Set target to " + targetYCoord + "; Current Y is " + transform.position.y);
     }
 
     private void setMovementFlags()
@@ -56,24 +59,23 @@ public class ComputerController : MonoBehaviour, PaddleController
 
         if (distanceToTarget > 0f)
         {
-            isUpMovement = true;
-            isDownMovement = false;
+            currentInput = PlayerInputType.UpMovement;
         }
         else
         {
-            isDownMovement = true;
-            isUpMovement = false;
+            currentInput = PlayerInputType.DownMovement;
         }
+
     }
 
     public bool IsRelativeUpInputReceived()
     {
-        return isUpMovement;
+        return currentInput == PlayerInputType.UpMovement;
     }
 
     public bool IsRelativeDownInputReceived()
     {
-        return isDownMovement;
+        return currentInput == PlayerInputType.DownMovement;
     }
 
     public void HandleRelativeUpInput()
@@ -82,9 +84,8 @@ public class ComputerController : MonoBehaviour, PaddleController
         if (shouldSetNewTarget())
         {
             setTargetLocation();
-            setMovementFlags();
+            StartCoroutine(delayMovementBySeconds(moveDelayTime));
         }
-
     }
 
     public void HandleRelativeDownInput()
@@ -93,14 +94,16 @@ public class ComputerController : MonoBehaviour, PaddleController
         if (shouldSetNewTarget())
         {
             setTargetLocation();
-            setMovementFlags();
+            StartCoroutine(delayMovementBySeconds(moveDelayTime));
         }
     }
 
-    //private IEnumerator delayMovementBySeconds(float secondsToWait)
-    //{
-    //    return new WaitForSeconds(secondsToWait);
-    //}
+    private IEnumerator delayMovementBySeconds(float secondsToWait)
+    {
+        currentInput = PlayerInputType.None;
+        yield return new WaitForSeconds(secondsToWait);
+        setMovementFlags();
+    }
 
     private bool shouldSetNewTarget()
     {
@@ -115,7 +118,17 @@ public class ComputerController : MonoBehaviour, PaddleController
 
     private bool isPastTarget()
     {
+        bool pastTarget = true;
         float distanceToTarget = targetYCoord - transform.position.y;
-        return Mathf.Sign(distanceToTarget) != Mathf.Sign(targetYCoord);
+        if (currentInput == PlayerInputType.UpMovement)
+        {
+            pastTarget = distanceToTarget < 0f;
+        }
+        else if (currentInput == PlayerInputType.DownMovement)
+        {
+            pastTarget = distanceToTarget > 0f;
+        }
+
+        return pastTarget;
     }
 }

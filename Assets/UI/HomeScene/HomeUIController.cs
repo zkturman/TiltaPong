@@ -18,7 +18,7 @@ public class HomeUIController : MonoBehaviour
 
         playComputerButton = setupSceneButton("PlayComputerButton", "GameplayScene");
         playOnlineButton = setupSceneButton("PlayOnlineButton", "UnderConstructionScene");
-        settingsButton = setupSceneButton("SettingsButton", "UnderConstructionScene");
+        settingsButton = setupSceneButton("SettingsButton", "SettingsScene");
         quitButton = setupQuitButton("QuitButton");
     }
 
